@@ -48,7 +48,7 @@ Show the user their game statistics
 
 ## Deliverables
 
-Optional: If you would like, feel free to also include a README.txt. This is helpful if:
+Optional: If you would like, feel free to also include a `README.txt`. This is helpful if:
 You think we may need any additional information about reading or running your program
 You would like to provide feedback about the project or a reflection on the code you wrote
 You did not finish the exercise but would like to provide some information about what you may have gotten done with more time/experience or where/what you struggled with
@@ -56,12 +56,14 @@ There is anything else you want to tell us!
 
 ## Bonus
 
-There are many exciting and fun ways to expand this application that we do not require, but we encourage you to try out. These include but are not limited to 
+There are many exciting and fun ways to expand this application that we do not require, but we encourage you to try out. These include but are not limited to: 
 
-Allowing the user to enter any 2 twitter handles to play the game
-Show attached images in tweets and clickable links
-Make the application pretty and well designed
-Use AI to create a twitter bot which is a combination between Elon and Kanye - Kanlon, gain a massive following, and become emperor of the world - just kidding ;) or are we 0_0
+<ul>
+  <li>Allowing the user to enter any 2 twitter handles to play the game</li>
+  <li>Show attached images in tweets and clickable links</li>
+  <li>Make the application pretty and well designed</li>
+  <li>Use AI to create a twitter bot which is a combination between Elon and Kanye - Kanlon, gain a massive following, and become emperor of the world - just kidding ;) or are we 0_0</li>
+</ul>
 
 ## Tips, Tricks, and Helpful Resources
 
@@ -70,5 +72,5 @@ There are lots of libraries you can use to help you execute http requests in lan
 Postman is a great tool for API testing (just create a new get request, type in the endpoint, and you’ll see the format of the response data)
 While Change++ encourages collaboration and you are free to discuss this assignment with your peers, we do not recommend completing your code with other applicants. As there are so many possible solutions, we will easily be able to identify code that is too similar, and it will also be a disadvantage to you if you do not understand your code well enough to build upon or explain it in the future.
 
-## Good luck!
+**Good luck!**
 
