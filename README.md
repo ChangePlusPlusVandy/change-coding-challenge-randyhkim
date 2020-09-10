@@ -74,7 +74,6 @@ There are many exciting and fun ways to expand this application that we do not r
   <li>There are lots of libraries you can use to help you execute http requests in languages of your choice</li>
   <li>Postman is a great tool for API testing (just create a new get request, type in the endpoint, and you’ll see the format of the response data)</li>
   <li>While Change++ encourages collaboration and you are free to discuss this assignment with your peers, we do not recommend completing your code with other applicants. As there are so many possible solutions, we will easily be able to identify code that is too similar, and it will also be a disadvantage to you if you do not understand your code well enough to build upon or explain it in the future.</li>
+  <li>**Good luck!**</li>
 </ul>
-
-**Good luck!**
 
