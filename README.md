@@ -8,10 +8,8 @@ Congrats!! You have been selected to engage in the next step of the Change++ int
 At Change++, our project teams are made up of members ranging from those in their first-year at Vanderbilt to those in graduate programs. We know that you all have varying degrees of technical skills and experience, all of which we will take into account when reviewing your code. Working on a Change++ team, you may often use a new technology that you are not familiar with and have not learned in CS courses at Vanderbilt, but we’re looking to see that you demonstrate the initiative and resourcefulness necessary to learn new skills and complete your work in a timely manner. You should be able to complete this challenge with a combination of basic programming skills (AP CS, 1101, etc.) and online resources.
 
 As far as your code goes, here are a few things we are looking for:
-<ul>
-<li>### Functionality
+### Functionality
 As always, the most important criteria is whether or not your code works according to the requirements
-</li>
 ### Good style
 As this is an untimed challenge, we expect a certain level of quality. Be sure to comment and format your code as you might while working on an application for one of our non-profits
 ### Readability and maintainability
@@ -21,7 +19,7 @@ This goes along with good style. While you’re coding, keep in mind that other 
 ## The Challenge
 Your task is to build a game which tests the user on their ability to differentiate tweets between two individuals: Elon Musk and Kanye West.
 
-**Given a tweet by Kanye West or Elon Musk. prompt the user to guess which public figure made the tweet, let the user know if they were correct. Once the user is finished let the user know how accurate they were in their guesses.**
+**Given a tweet by Kanye West or Elon Musk, prompt the user to guess which public figure made the tweet, let the user know if they were correct. Once the user is finished let the user know how accurate they were in their guesses.**
 
 You will use the Twitter API found in the Twitter Developer Platform to write a program that accomplishes this. In order to use this API, you’ll need a twitter account. 
 
@@ -31,7 +29,7 @@ For the purposes of this program, we will only be asking you to use the followin
 
 Here is a helpful sample request to get 100 tweets from @twitterapi.
 
-GET https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=twitterapi?count=100
+`GET https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=twitterapi?count=100`
 
 You will want to modify this endpoint to get tweets from @elonmusk and @kanyewest.
 
@@ -71,5 +69,6 @@ Information on HTTP requests: https://restfulapi.net/http-methods/
 There are lots of libraries you can use to help you execute http requests in languages of your choice
 Postman is a great tool for API testing (just create a new get request, type in the endpoint, and you’ll see the format of the response data)
 While Change++ encourages collaboration and you are free to discuss this assignment with your peers, we do not recommend completing your code with other applicants. As there are so many possible solutions, we will easily be able to identify code that is too similar, and it will also be a disadvantage to you if you do not understand your code well enough to build upon or explain it in the future.
+
 Good luck!
 
