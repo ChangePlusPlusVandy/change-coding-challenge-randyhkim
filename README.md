@@ -23,17 +23,17 @@ Your task is to build a game which tests the user on their ability to differenti
 
 You will use the Twitter API found in the Twitter Developer Platform to write a program that accomplishes this. In order to use this API, you’ll need a twitter account. 
 
-Here is the guide for using the GET statuses/user_timeline endpoint. 
+[Here is the guide](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/timelines/api-reference/get-statuses-user_timeline) for using the [GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET) statuses/user_timeline [endpoint](https://en.wikipedia.org/wiki/Web_API). 
 
 For the purposes of this program, we will only be asking you to use the following two endpoints.
 
-Here is a helpful sample request to get 100 tweets from @twitterapi.
+Here is a helpful sample request to get 100 tweets from `@twitterapi`:
 
 `GET https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=twitterapi?count=100`
 
-You will want to modify this endpoint to get tweets from @elonmusk and @kanyewest.
+You will want to modify this endpoint to get tweets from `@elonmusk` and `@kanyewest`.
 
-This endpoint will return a maximum of 3,200 tweets in JSON. We only care about the text property for each tweet object. 
+This endpoint will return a maximum of 3,200 tweets in [JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON). We only care about the `text` property for each tweet object. 
 
 Some tweets are retweets, replies, and tag other twitter users, and they are thus not genuine Elon and Kanye. As well, some tweets contain links to videos and images. Please filter the tweets so they do not include any references to other users and URL links. This should be pretty easy to do looking at the text of the string of each tweet.
 
@@ -74,7 +74,7 @@ There are many exciting and fun ways to expand this application that we do not r
 <ul>
   <li>Information on HTTP requests: https://restfulapi.net/http-methods/</li>
   <li>There are lots of libraries you can use to help you execute http requests in languages of your choice</li>
-  <li>Postman is a great tool for API testing (just create a new get request, type in the endpoint, and you’ll see the format of the response data)</li>
+  <li>[Postman](https://www.getpostman.com/) is a great tool for API testing (just create a new get request, type in the endpoint, and you’ll see the format of the response data)</li>
   <li>While Change++ encourages collaboration and you are free to discuss this assignment with your peers, we do not recommend completing your code with other applicants. As there are so many possible solutions, we will easily be able to identify code that is too similar, and it will also be a disadvantage to you if you do not understand your code well enough to build upon or explain it in the future.</li>
   <li>Good luck!</li>
 </ul>
