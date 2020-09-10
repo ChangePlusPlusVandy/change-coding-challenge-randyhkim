@@ -37,14 +37,16 @@ This endpoint will return a maximum of 3,200 tweets in JSON. We only care about 
 
 Some tweets are retweets, replies, and tag other twitter users, and they are thus not genuine Elon and Kanye. As well, some tweets contain links to videos and images. Please filter the tweets so they do not include any references to other users and URL links. This should be pretty easy to do looking at the text of the string of each tweet.
 
-The game loop for your application should look something like this.
+The game loop for your application should look something like this:
 
-When user starts program, load the first 3200 tweets by Elon and Kanye, filtered to not include any links or tags to other twitter users
-Randomly choose a tweet by Elon or Kanye to give to the user
-Prompt the user to guess
-Let the user know if they were correct
-Repeat steps 1-4
-Show the user their game statistics
+<ol>
+  <li>When user starts program, load the first 3200 tweets by Elon and Kanye, filtered to not include any links or tags to other twitter users</li>
+  <li>Randomly choose a tweet by Elon or Kanye to give to the user</li>
+  <li>Prompt the user to guess</li>
+  <li>Let the user know if they were correct</li>
+  <li>Repeat steps 1-4</li>
+  <li>Show the user their game statistics</li>
+</ol>
 
 ## Deliverables
 
@@ -74,6 +76,6 @@ There are many exciting and fun ways to expand this application that we do not r
   <li>There are lots of libraries you can use to help you execute http requests in languages of your choice</li>
   <li>Postman is a great tool for API testing (just create a new get request, type in the endpoint, and you’ll see the format of the response data)</li>
   <li>While Change++ encourages collaboration and you are free to discuss this assignment with your peers, we do not recommend completing your code with other applicants. As there are so many possible solutions, we will easily be able to identify code that is too similar, and it will also be a disadvantage to you if you do not understand your code well enough to build upon or explain it in the future.</li>
-  <li>**Good luck!**</li>
+  <li>Good luck!</li>
 </ul>
 
