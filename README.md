@@ -25,7 +25,7 @@ You will use the Twitter API found in the Twitter Developer Platform to write a 
 
 [Here is the guide](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/timelines/api-reference/get-statuses-user_timeline) for using the [GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET) statuses/user_timeline [endpoint](https://en.wikipedia.org/wiki/Web_API). 
 
-For the purposes of this program, we will only be asking you to use the following two endpoints.
+For the purposes of this program, we will only be asking you to use the following endpoint.
 
 Here is a helpful sample request to get 100 tweets from `@twitterapi`:
 
