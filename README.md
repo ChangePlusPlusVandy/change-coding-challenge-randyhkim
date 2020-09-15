@@ -1,7 +1,7 @@
 # Change++ 2020 Coding Challenge
 ## Before You Begin
 
-Congrats!! You have been selected to engage in the next step of the Change++ interview process. The next step in our application process is completing the following coding project. As we are unable to offer interviews to every applicant, we will use this challenge to evaluate a number of criteria including technical skills and commitment to Change++. We expect this to take between 2-6 hours depending on experience level and technical skills. We recognize that you are all busy, but as a member of a Change++ team it is expected that you will dedicate 2-3 hours every week working on your project; therefore, we believe this is a reasonable timeframe.
+Congrats!! You have been selected to engage in the next step of the Change++ interview process. The next step in our application process is completing the following coding project. As we are unable to offer interviews to every applicant, we will use this challenge to evaluate a number of criteria including technical skills and commitment to Change++. We expect this to take between 2-6 hours depending on experience level and technical skills. We recognize that you are all busy, but as a member of a Change++ team it is expected that you will dedicate 4-6 hours every week working on your project; therefore, we believe this is a reasonable timeframe.
 
 ## What we are looking for
 
@@ -75,6 +75,7 @@ There are many exciting and fun ways to expand this application that we do not r
   <li>Information on HTTP requests: https://restfulapi.net/http-methods/</li>
   <li>There are lots of libraries you can use to help you execute http requests in languages of your choice</li>
   <li><a href="https://www.getpostman.com/">Postman</a> is a great tool for API testing (just create a new get request, type in the endpoint, and you’ll see the format of the response data)</li>
+  <li><a href="https://developer.twitter.com/en/docs/twitter-api/getting-started/guide">Getting Started</a> with the Twitter API</li>
   <li>While Change++ encourages collaboration and you are free to discuss this assignment with your peers, we do not recommend completing your code with other applicants. As there are so many possible solutions, we will easily be able to identify code that is too similar, and it will also be a disadvantage to you if you do not understand your code well enough to build upon or explain it in the future.</li>
   <li>Good luck!</li>
 </ul>
